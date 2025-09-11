@@ -11,6 +11,9 @@ namespace ConsoleAppTest
         static void Main(string[] args)
         {
             int a =3, b = 5;
+
+            Console.WriteLine(a+b+2);
+
         }
     }
 }
