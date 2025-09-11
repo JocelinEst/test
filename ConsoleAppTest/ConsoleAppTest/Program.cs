@@ -12,7 +12,10 @@ namespace ConsoleAppTest
         {
             int a =3, b = 5;
 
-            Console.WriteLine(a+b+1);
+			if (true)
+				Console.WriteLine(a+b+1);
+			else if(false)
+				Console.WriteLine(a+b+5);
 
         }
     }
