@@ -11,7 +11,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             int a = 3, b = 5;
-            int c = a + b+2;
+            int c = a + b;
+            c += 2;
         }
     }
 }
