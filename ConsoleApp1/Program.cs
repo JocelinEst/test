@@ -10,9 +10,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int a = 3, b = 5;
+            int a = 10, b = 5;
             int c = a + b;
-            c += 2;
+            c += 2-1;
+            c = 123 + 3 + 1323;
+            Console.WriteLine(c);
         }
     }
 }
