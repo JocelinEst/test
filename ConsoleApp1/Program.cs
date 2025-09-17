@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
             int a = 3, b = 5;
             int c = a + b;
-            c += 2;
+            c += 3;
         }
     }
 }
